@@ -1,0 +1,31 @@
+#root {
+  width: 100%;
+}
+.logo_img {
+  width: 200px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: block;
+      transform: rotate(0);
+      animation-name: Rotate;
+      animation-duration: 255s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-fill-mode: none;
+      animation-play-state: running;
+
+}
+
+@keyframes Rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(3600deg);
+  }
+
+}
